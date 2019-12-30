@@ -1,0 +1,21 @@
+{
+    
+    "video": true,
+    "screenshotsFolderFolder": "cypress/videos",
+
+    
+        
+        "reporterOptions": {
+            "reporterEnabled": "mochawesome",
+            "mochawesomeReporterOptions": {
+                "reportDir": "cypress/reports/mocha",
+                "quite": true,
+                "overwrite": false,
+                "html": false,
+                "json": true
+            }
+        }
+    
+}
+
+
